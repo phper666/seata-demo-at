@@ -15,7 +15,6 @@ public class AccountServiceImpl implements AccountService {
     private AccountCore accountCore;
 
     @Override
-    @GlobalTransactional
     public ObjectResponse decreaseAccount(AccountDTO accountDTO) {
         boolean account = accountCore.decreaseAccount(accountDTO.getUserId(), accountDTO.getAmount().doubleValue());
         ObjectResponse<Object> response = new ObjectResponse<>();
