@@ -1,8 +1,8 @@
-##seata-test项目
+##seata-demo-at项目
 用来测试seata全局事务性,使用的AT模式
 
 ##项目目录
-seata-test  
+seata-demo-at  
 |__ seata-test-account-provider  # 账户服务  
 |__ seta-test-api  # 所有服务的API接口    
 |__ seta-test-order-provider  # 订单服务   
